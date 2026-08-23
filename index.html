@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>CatchTrail Support</title>
+    <style>
+      :root {
+        color: #12353a;
+        background: #f7f3e8;
+        font-family:
+          system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      main {
+        width: min(720px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 72px 0;
+      }
+      .mark {
+        width: 68px;
+        height: 68px;
+        display: grid;
+        place-items: center;
+        border-radius: 20px;
+        background: #d6efec;
+        color: #073f44;
+        font-size: 36px;
+      }
+      h1 {
+        margin: 24px 0 8px;
+        color: #073f44;
+        font-family: Georgia, serif;
+        font-size: clamp(40px, 8vw, 66px);
+        line-height: 1;
+      }
+      .lead {
+        max-width: 600px;
+        color: #46666a;
+        font-size: 20px;
+        line-height: 1.6;
+      }
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 32px;
+      }
+      a {
+        color: #0e646a;
+        font-weight: 700;
+      }
+      nav a {
+        padding: 13px 18px;
+        border: 1px solid #9bc9c6;
+        border-radius: 999px;
+        text-decoration: none;
+      }
+      nav a:first-child {
+        border-color: #0e646a;
+        background: #0e646a;
+        color: white;
+      }
+      footer {
+        margin-top: 72px;
+        color: #6d8587;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark" aria-hidden="true">⌁</div>
+      <h1>CatchTrail</h1>
+      <p class="lead">
+        A private fishing journal for catches, places, conditions, photos, and
+        the stories you want to remember.
+      </p>
+      <nav aria-label="Support links">
+        <a href="./privacy/">Privacy policy</a>
+        <a href="https://github.com/jcole75/catchtrail-support/issues/new"
+          >Request support</a
+        >
+      </nav>
+      <footer>CatchTrail · Fishing Journal &amp; Log</footer>
+    </main>
+  </body>
+</html>
