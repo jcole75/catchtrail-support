@@ -59,9 +59,10 @@
       <p class="effective">Effective September 1, 2026</p>
 
       <p class="notice">
-        CatchTrail has no account, advertising, analytics, social feed, or
-        developer-operated cloud service. Your fishing journal is stored in the
-        app on your device.
+        CatchTrail has no app account, social feed, or developer-operated journal
+        cloud. Your fishing journal is stored in the app on your device. Free
+        users may see consent-managed Google AdMob banners; Plus and Play Pass
+        access remove them.
       </p>
 
       <h2>Information stored on your device</h2>
@@ -81,7 +82,8 @@
       <ul>
         <li>
           <b>Location and weather:</b> CatchTrail requests foreground location
-          only after you tap <b>Use current location</b>. It asks the operating
+          only after you choose automatic location during setup or tap
+          <b>Use current location</b>. It asks the operating
           system for a place name and sends the selected latitude and longitude
           over HTTPS to Open-Meteo to retrieve current conditions. The request
           is not tied to a CatchTrail account because no account exists.
@@ -110,7 +112,41 @@
           their own distribution, security, and optional system-backup behavior.
           They are not CatchTrail journal-synchronization services.
         </li>
+        <li>
+          <b>Advertising:</b> The free version can show a restrained banner
+          supplied by Google AdMob. CatchTrail requests legally required consent
+          before requesting ads and exposes ad privacy choices in Settings when
+          required. Google’s Mobile Ads SDK can collect and share IP address,
+          app interactions, diagnostic information, and device or account
+          identifiers for advertising, analytics, and fraud prevention. Google
+          documents encryption in transit. CatchTrail does not put journal
+          entries, photos, notes, measurements, or saved fishing coordinates in
+          ad requests. Plus entitlement holders receive no ads.
+        </li>
+        <li>
+          <b>Purchases:</b> The applicable app store processes payment details.
+          RevenueCat validates CatchTrail Plus using an anonymous app user ID
+          and receives store purchase history, product identifiers, and
+          entitlement status. CatchTrail disables automatic advertising-device-
+          identifier collection in RevenueCat and does not send contact details
+          or journal content to RevenueCat.
+        </li>
       </ul>
+
+      <h2>CatchTrail Plus and Play Pass</h2>
+      <p>
+        CatchTrail Plus is an auto-renewing annual subscription that removes
+        advertising. The app checks entitlement status when it opens and when it
+        returns to the foreground. If CatchTrail is accepted into Google Play
+        Pass, a separate Play Pass in-app product unlocks the same Plus
+        entitlement. Both access paths are treated as ad-free.
+      </p>
+      <p>
+        Purchases can be restored from Settings. The store provides subscription
+        cancellation and management. CatchTrail does not currently provide an
+        app account that transfers access between unrelated Apple and Google
+        store accounts.
+      </p>
 
       <h2>Permissions</h2>
       <ul>
@@ -142,10 +178,7 @@
       <p>
         This policy will be updated before any release that materially changes
         CatchTrail’s data practices. For privacy questions or support, open a
-        request at
-        <a href="https://github.com/jcole75/catchtrail-support/issues/new"
-          >CatchTrail Support</a
-        >.
+        email <a href="mailto:support@mindware.mobi">support@mindware.mobi</a>.
       </p>
     </main>
   </body>
